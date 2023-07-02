@@ -51,8 +51,39 @@ body {
 
 /* logo styling */
 #logo img {
-    height: 220px;
-    width: 180px;
+    height: 17.5em;
+    width: 115%;
+    max-width: fit-content;
     border-radius: 50%;
     margin: 0 5px;
+    z-index: 3;
+    animation: pass 6s infinite;
+    animation-fill-mode: forwards;
+}
+
+#logo {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    top: 46px;
+    margin-left: 12px;
+    height: 16em;
+    width: 67%;
+    max-width: auto;
+    border-radius: 50%;
+    background: #FF7F50;
+    z-index: 1;
+}
+
+/* logo animation */
+@keyframes pass {
+
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+
 }
