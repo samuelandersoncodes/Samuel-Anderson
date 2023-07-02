@@ -10,4 +10,9 @@
 
 body {
     color: #fc4600;
+    font-family: 'Alice, serif';
+}
+
+.heading-font {
+    font-family: 'DM Serif Text', serif; 
 }
