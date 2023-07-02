@@ -14,5 +14,37 @@ body {
 }
 
 .heading-font {
-    font-family: 'DM Serif Text', serif; 
+    font-family: 'DM Serif Text', serif;
+}
+
+/* Header Styling */
+#main-header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ff7f5028;
+    height: 260px;
+    width: auto;
+    max-width: 100%;
+}
+
+.sub-header {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+}
+
+.sub-header1 {
+    height: 260px;
+    width: 20%;
+}
+
+.sub-header2 {
+    height: 260px;
+    width: 45%;
+    background-color: green;
+}
+
+.sub-header3 {
+    height: 260px;
+    width: 35%;
 }
