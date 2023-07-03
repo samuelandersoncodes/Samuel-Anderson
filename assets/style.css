@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: #ff7f5028;
-    height: 260px;
+    height: 220px;
     width: auto;
     max-width: 100%;
 }
@@ -31,21 +31,19 @@ body {
     display: flex;
     flex-direction: row;
     flex-grow: 2;
+    height: 220px;
 }
 
 .sub-header1 {
-    height: 260px;
     width: 20%;
 }
 
 .sub-header2 {
-    height: 260px;
     width: 45%;
     background-color: green;
 }
 
 .sub-header3 {
-    height: 260px;
     width: 35%;
 }
 
