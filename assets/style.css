@@ -92,13 +92,27 @@ body {
 #name {
     display: flex;
     flex-wrap: wrap;
-    margin: 1rem auto;
+    margin: 0.3rem auto;
     width: 63%;
     justify-content: space-around;
     background-image: url(../assets/images/bluberries.webp);
     color: transparent;
     -webkit-background-clip: text;
     animation: name 60s infinite linear;
+}
+
+#name>h2 {
+    font-size: 250%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#name>h3 {
+    font-size: 150%;
+    font-weight: bolder;
+    padding: 0.85rem 0.1rem 0.9rem 0.5rem;
+    margin-left: 3rem;
+    text-align: center;
 }
 
 /* Name zoom animation */
