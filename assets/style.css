@@ -51,11 +51,10 @@ body {
 
 /* logo styling */
 #logo img {
-    height: 17.5em;
-    width: 115%;
-    max-width: fit-content;
+    height: 230px;
+    width: 183px;
     border-radius: 50%;
-    margin: 0 5px;
+    margin: 0 4px;
     z-index: 3;
     animation: pass 6s infinite;
     animation-fill-mode: forwards;
@@ -63,13 +62,11 @@ body {
 
 #logo {
     display: flex;
-    justify-content: left;
     position: relative;
-    top: 46px;
+    top: 78.5px;
     margin-left: 12px;
-    height: 16em;
-    width: 67%;
-    max-width: auto;
+    height: 220px;
+    width: 182px;
     border-radius: 50%;
     background: #FF7F50;
     z-index: 1;
