@@ -87,3 +87,12 @@ body {
     }
 
 }
+
+/* name styling */
+#name {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    width: 63%;
+    justify-content: space-around;
+}
