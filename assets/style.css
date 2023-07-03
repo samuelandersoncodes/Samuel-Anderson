@@ -35,16 +35,15 @@ body {
 }
 
 .sub-header1 {
-    width: 20%;
+    width: 175px;
 }
 
 .sub-header2 {
-    width: 45%;
-    background-color: green;
+    width: 40%;
 }
 
 .sub-header3 {
-    width: 35%;
+    width: 20%;
 }
 
 /* logo styling */
