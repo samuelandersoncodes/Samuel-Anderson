@@ -121,3 +121,15 @@ body {
     }
 
 }
+
+/* title styling */
+#title h1 {
+font-size: 260%;
+}
+
+#title p {
+    font-size: 110%;
+    font-weight: bold;
+    line-height: 22px;
+    color: darkred;
+    }
