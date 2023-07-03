@@ -95,4 +95,21 @@ body {
     margin: 1rem auto;
     width: 63%;
     justify-content: space-around;
+    background-image: url(../assets/images/bluberries.webp);
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: name 60s infinite linear;
+}
+
+/* Name zoom animation */
+@keyframes name {
+
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100% 100%;
+    }
+
 }
