@@ -24,22 +24,20 @@ body {
     background-color: #ff7f5028;
     height: 220px;
     width: auto;
-    max-width: 100%;
 }
 
 .sub-header {
     display: flex;
-    flex-direction: row;
     flex-grow: 2;
     height: 220px;
 }
 
 .sub-header1 {
-    width: 175px;
+    width: 7.5rem;
 }
 
 .sub-header2 {
-    width: 40%;
+    width: 45%;
 }
 
 /* logo styling */
@@ -91,17 +89,14 @@ body {
     animation: name 60s infinite linear;
 }
 
-#name>h2 {
-    font-size: 250%;
+#name>h1 {
+    font-size: 300%;
     font-weight: bolder;
-    text-align: center;
 }
 
-#name>h3 {
-    font-size: 150%;
+#name>h2 {
+    font-size: 170%;
     font-weight: bolder;
-    padding: 0.85rem 0.1rem 0.9rem 0.5rem;
-    margin-left: 3rem;
     text-align: center;
 }
 
