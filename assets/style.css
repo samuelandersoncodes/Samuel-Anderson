@@ -118,3 +118,12 @@ body {
     font-size: 110%;
     font-weight: bold;
 }
+
+/* motto styling */
+#motto h3 {
+    font-size: 150%;
+    font-weight: bolder;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+}
