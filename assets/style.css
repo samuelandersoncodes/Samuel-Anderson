@@ -133,3 +133,9 @@ body {
     line-height: 22px;
     color: darkred;
 }
+
+/* navbar styling */
+#nav li {
+    font-size: 110%;
+    font-weight: bold;
+}
