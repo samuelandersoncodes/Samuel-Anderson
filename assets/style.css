@@ -20,13 +20,15 @@ body {
 /* Header Styling */
 #main-header {
     background: url(../assets/images/white-keyboard.webp) center center;
-    background-size:auto;
+    background-size: auto;
+    background-position: bottom;
     display: flex;
     flex-wrap: wrap;
     background-color: #ffffff;
     height: 220px;
     width: auto;
     margin: 0 auto;
+    z-index: 1;
 }
 
 .sub-header {
