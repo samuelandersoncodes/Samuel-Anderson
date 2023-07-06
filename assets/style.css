@@ -132,3 +132,20 @@ body {
     letter-spacing: 0.3rem;
     text-align: center;
 }
+
+/* media queries */
+@media screen and (max-width: 1050px) {
+
+    #motto {
+        margin-left: 13rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #motto {
+        margin: 3.5rem 0 0.2rem;
+    }
+
+}
