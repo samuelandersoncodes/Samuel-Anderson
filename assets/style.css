@@ -119,6 +119,10 @@ body {
 }
 
 /* navbar styling */
+.navbar-toggler {
+margin-right: 0.7rem;
+}
+
 #nav li {
     font-size: 110%;
     font-weight: bold;
