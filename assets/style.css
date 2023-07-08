@@ -120,7 +120,7 @@ body {
 
 /* navbar styling */
 .navbar-toggler {
-margin-right: 0.7rem;
+    margin-right: 0.7rem;
 }
 
 #nav li {
@@ -166,6 +166,21 @@ margin-right: 0.7rem;
 
     #motto {
         display: none;
+    }
+
+    #nav li {
+        font-size: 90%;
+        line-height: 8px;
+        padding-right: 5px;
+    }
+
+    #nav {
+        position: relative;
+        float: right;
+    }
+
+    .sub-header1 {
+        width: 5%;
     }
 
 }
