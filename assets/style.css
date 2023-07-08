@@ -184,3 +184,18 @@ body {
     }
 
 }
+
+@media screen and (max-width: 400px) {
+
+    #logo img {
+        height: 190px;
+        width: 146px;
+        margin: 0 1px;
+    }
+
+    #logo {
+        height: 180px;
+        width: 145px;
+    }
+
+}
