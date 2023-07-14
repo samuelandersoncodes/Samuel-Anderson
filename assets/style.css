@@ -137,6 +137,14 @@ body {
     text-align: center;
 }
 
+/* footer styling */
+footer {
+    background-color: #d3d3d33f;
+    color: black;
+    min-height: 120px;
+    width: 100%;
+}
+
 /* media queries */
 @media screen and (max-width: 1050px) {
 
