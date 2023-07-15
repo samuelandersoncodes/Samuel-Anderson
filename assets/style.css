@@ -147,6 +147,10 @@ footer {
     padding: 0.8rem 0.5rem 0.5rem;
 }
 
+#download-cv {
+display: inline-block;
+}
+
 /* media queries */
 @media screen and (max-width: 1050px) {
 
