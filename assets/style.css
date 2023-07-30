@@ -193,14 +193,21 @@ a {
     }
 
     #motto {
-        margin: 1rem ;
+        margin: 1rem;
     }
+    
 }
 
 @media screen and (max-width: 475px) {
 
     #name {
-        display: none;
+        position: relative;
+        top: 14.5rem;
+        width: auto;
+    }
+
+    #motto h3 {
+        margin-top: 14.5rem;
     }
 
 }
