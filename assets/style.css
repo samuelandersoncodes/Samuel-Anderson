@@ -169,44 +169,17 @@ a {
 
 @media screen and (max-width: 660px) {
 
-    #name {
-        display: inline-block;
-        position: relative;
-        top: 270px;
-        width: 130%;
-        height: auto;
-    }
-
     #name>h1 {
-        font-size: 270%;
+        font-size: 220%;
     }
 
 }
 
 @media screen and (max-width: 534px) {
 
-    #motto {
-        display: none;
-    }
-
-    #nav li {
-        font-size: 90%;
-        line-height: 8px;
-        padding-right: 5px;
-    }
-
-    #nav {
-        position: relative;
-        float: right;
-    }
-
     .sub-header1 {
-        width: 5%;
+        width: 10%;
     }
-
-}
-
-@media screen and (max-width: 400px) {
 
     #logo img {
         height: 190px;
@@ -217,6 +190,17 @@ a {
     #logo {
         height: 180px;
         width: 145px;
+    }
+
+    #motto {
+        margin: 1rem ;
+    }
+}
+
+@media screen and (max-width: 475px) {
+
+    #name {
+        display: none;
     }
 
 }
