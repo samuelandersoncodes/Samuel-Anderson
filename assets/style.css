@@ -161,9 +161,15 @@ a {
 }
 
 /*mid section styling*/
-.skill-set{
+/*Skill set heading style*/
+.skill-set {
     margin-top: 1.5rem;
     font-size: 200%;
+}
+
+/*Skill set sub-heading style*/
+.skill-box h4 {
+    color: #36454fd8;
 }
 
 /* media queries */
