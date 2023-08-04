@@ -160,6 +160,12 @@ a {
     color: #36454f;
 }
 
+/*mid section styling*/
+.skill-set{
+    margin-top: 1.5rem;
+    font-size: 200%;
+}
+
 /* media queries */
 @media screen and (max-width: 1050px) {
 
