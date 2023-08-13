@@ -181,6 +181,32 @@ a {
     font-size: 130%;
 }
 
+/*About styling*/
+/*About container styling*/
+.about-container {
+    height: 95vh;
+    width: 100%;
+    border: 1px solid #e8e9eb;
+    border-radius: 7px;
+    background: #e8e9ebe9 url(../assets/images/lion.webp) no-repeat fixed top;
+    background-size: cover;
+    color: #36454f;
+    z-index: 1;
+}
+
+.about-container-1 {
+    height: 93vh;
+    width: 100%;
+    padding: 6rem;
+    border: 1px solid #e8e9eb9a;
+    border-radius: 3px;
+    background-color: #e8e9ebc3;
+    color: #36454f;
+    font-weight: 600;
+    font-size: 140%;
+    z-index: 3;
+}
+
 /* media queries */
 @media screen and (max-width: 1050px) {
 
