@@ -273,4 +273,10 @@ z-index: 3;
         margin-top: 14.5rem;
     }
 
+    .about-container-1 {
+        font-size: 110%;
+        font-family: 400;
+        padding: 1rem 0.4rem;
+    }
+
 }
