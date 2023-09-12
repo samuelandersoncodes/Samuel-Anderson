@@ -211,6 +211,12 @@ a {
 z-index: 3;
 }
 
+/* Contact page styling */
+.contact-form {
+    max-width: 70%;
+    margin: 5px auto;
+}
+
 /* media queries */
 @media screen and (max-width: 1050px) {
 
