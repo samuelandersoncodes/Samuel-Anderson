@@ -365,6 +365,16 @@ a {
         width: 60%;
     }
 
+    .offer-col {
+        border-left: none;
+    }
+
+    #contact-details {
+        font-size: 120%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -426,6 +436,14 @@ a {
         font-size: 110%;
         font-family: 400;
         padding: 1rem 0.4rem;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+
+    #contact-details>p {
+        font-size: 90%;
     }
 
 }
