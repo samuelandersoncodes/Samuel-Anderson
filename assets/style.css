@@ -255,6 +255,48 @@ a {
     background-color: #36454f;
 }
 
+/* work column timeline styling */
+.timeline-item1{
+    padding: 4em 2em 0em 1em;
+    position: relative;
+    color: #36454f;
+    border-right: 1.3px solid;
+}
+
+.timeline-item1 p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item1:before {
+    content: attr(data-date);
+    position: absolute;
+    right: 2.5em;
+    top: 2em;
+    display: block;
+    font-weight: 600;
+    font-size: 0.9em;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+.timeline-item1:after {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    right: -6px;
+    top: 2em;
+    display: block;
+    border-radius: 12px;
+    content: '';
+    background-color: #36454f;
+}
+
+.work-col {
+    text-align: right;
+}
+
 /* Competence progress styling */
 .progress {
     position: relative;
