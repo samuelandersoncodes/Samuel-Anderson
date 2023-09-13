@@ -287,6 +287,10 @@ a {
     width: 75%;
 }
 
+.bar-5 {
+    width: 67%;
+}
+
 /* media queries */
 @media screen and (max-width: 1050px) {
 
