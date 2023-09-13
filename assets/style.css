@@ -256,7 +256,7 @@ a {
 }
 
 /* work column timeline styling */
-.timeline-item1{
+.timeline-item1 {
     padding: 4em 2em 0em 1em;
     position: relative;
     color: #36454f;
@@ -353,6 +353,18 @@ a {
         padding-left: 1.4rem;
         font-size: 110%;
         width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .work-col {
+        margin-top: 3rem;
+    }
+
+    .competence-col {
+        margin-top: 3rem;
     }
 
 }
