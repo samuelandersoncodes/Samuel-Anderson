@@ -213,8 +213,18 @@ a {
 
 /* Contact page styling */
 .contact-form {
-    max-width: 70%;
-    margin: 5px auto;
+    width: 90%;
+    margin: 0.8rem auto;
+}
+
+/* form column styling */
+.offer-col {
+    border-left: 2px solid #6e6969;
+}
+
+/* contact column styling */
+#contact-details {
+    margin: 0.1rem auto;
 }
 
 /* timeline styling */
