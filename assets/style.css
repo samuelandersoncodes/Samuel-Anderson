@@ -255,6 +255,37 @@ a {
     background-color: #36454f;
 }
 
+/* Competence progress styling */
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #e8e9eb;
+    background-color: #36454f36;
+}
+
+.bar-1 {
+    width: 95%;
+}
+
+.bar-2 {
+    width: 90%;
+}
+
+.bar-3 {
+    width: 83%;
+}
+
+.bar-4 {
+    width: 75%;
+}
 
 /* media queries */
 @media screen and (max-width: 1050px) {
