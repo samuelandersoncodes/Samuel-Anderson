@@ -291,6 +291,11 @@ a {
     width: 67%;
 }
 
+.sql-bar {
+    width: 64%;
+    background-color: #6e6e6eb5;
+}
+
 /* media queries */
 @media screen and (max-width: 1050px) {
 
