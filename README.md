@@ -4,3 +4,5 @@ Samuel Anderson is my name, given to my personal website. This website essential
 
 The site will be very useful for all who may laison with me professionally. Thus, it makes it easy for all and sundry to know about me and easily get in touch for software development projects and offers.                                                                 
 View the live website [here] (https://samuelandersoncodes.github.io/Samuel-Anderson/index.html)
+
+![mockup](docs/readme_image/mockup-sa.com.jpg)
