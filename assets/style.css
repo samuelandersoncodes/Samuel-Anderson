@@ -33,7 +33,7 @@ body {
 
 .sub-header {
     display: flex;
-    flex-grow: 2;
+    flex-grow: 3;
     height: 220px;
 }
 
@@ -349,6 +349,14 @@ a {
 }
 
 /* media queries */
+@media screen and (min-width: 1880px) {
+
+    .sub-header2 {
+        width: 40%;
+    }
+
+}
+
 @media screen and (max-width: 1050px) {
 
     #motto {
