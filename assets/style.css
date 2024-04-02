@@ -19,9 +19,9 @@ body {
 
 /* Header Styling */
 #main-header {
-    background: url(../assets/images/white-keyboard.webp) center center;
-    background-size: auto;
-    background-position: bottom;
+    background: url(../assets/images/img-2.jpg) center center;
+    background-size: 100%;
+    background-position: center;
     display: flex;
     flex-wrap: wrap;
     background-color: #ffffff;
