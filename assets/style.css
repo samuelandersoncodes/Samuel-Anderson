@@ -20,7 +20,7 @@ body {
 /* Header Styling */
 #main-header {
     background: url(../assets/images/bg-img-lg.webp) center center;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     display: flex;
     flex-wrap: wrap;
@@ -349,16 +349,7 @@ a {
 @media screen and (max-width: 900px) {
 
     #main-header {
-        background: url(../assets/images/img-bg-md.webp) top center;
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        flex-wrap: wrap;
-        background-color: #ffffff;
-        height: 100vh;
-        width: auto;
-        margin: 0 auto;
-        z-index: -1;
+        background: url(../assets/images/img-bg-md.webp) center center;
     }
 
 }
