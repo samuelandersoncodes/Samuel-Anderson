@@ -41,10 +41,6 @@ body {
     width: 7.5rem;
 }
 
-.sub-header2 {
-    width: 45%;
-}
-
 /* logo styling */
 #logo img {
     height: 230px;
@@ -350,14 +346,6 @@ a {
 }
 
 /* media queries */
-@media screen and (min-width: 1880px) {
-
-    .sub-header2 {
-        width: 40%;
-    }
-
-}
-
 @media screen and (max-width: 900px) {
 
     #main-header {
