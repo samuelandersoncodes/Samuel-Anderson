@@ -19,7 +19,7 @@ body {
 
 /* Header Styling */
 #main-header {
-    background: url(../assets/images/img-2.jpg) center center;
+    background: url(../assets/images/bg-img-lg.webp) center center;
     background-size: 100%;
     background-position: center;
     display: flex;
