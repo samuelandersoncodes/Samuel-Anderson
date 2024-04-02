@@ -28,7 +28,7 @@ body {
     height: 100vh;
     width: auto;
     margin: 0 auto;
-    z-index: 1;
+    z-index: -1;
 }
 
 .sub-header {
@@ -92,6 +92,7 @@ body {
     color: transparent;
     -webkit-background-clip: text;
     animation: name 60s infinite linear;
+    z-index: 3;
 }
 
 #name>h1 {
@@ -369,7 +370,7 @@ a {
         height: 100vh;
         width: auto;
         margin: 0 auto;
-        z-index: 1;
+        z-index: -1;
     }
 
 }
