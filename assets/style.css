@@ -25,7 +25,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: #ffffff;
-    height: 60rem;
+    height: 100vh;
     width: auto;
     margin: 0 auto;
     z-index: 1;
@@ -353,6 +353,23 @@ a {
 
     .sub-header2 {
         width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    #main-header {
+        background: url(../assets/images/img-bg-md.webp) top center;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #ffffff;
+        height: 100vh;
+        width: auto;
+        margin: 0 auto;
+        z-index: 1;
     }
 
 }
