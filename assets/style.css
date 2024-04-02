@@ -132,16 +132,6 @@ body {
     background-color: #e8e9ebda;
 }
 
-/* motto styling */
-#motto h3 {
-    font-size: 150%;
-    font-weight: bolder;
-    word-spacing: 0.1rem;
-    letter-spacing: 0.3rem;
-    text-align: center;
-    color: #36454fd8;
-}
-
 /* footer styling */
 footer {
     background-color: #d3d3d33f;
@@ -357,14 +347,6 @@ a {
 
 }
 
-@media screen and (max-width: 1050px) {
-
-    #motto {
-        margin-left: 13rem;
-    }
-
-}
-
 @media screen and (max-width: 991px) {
 
     .navbar-nav .nav-item a {
@@ -422,10 +404,6 @@ a {
         width: 145px;
     }
 
-    #motto {
-        margin: 1rem;
-    }
-
 }
 
 @media screen and (max-width: 475px) {
@@ -434,10 +412,6 @@ a {
         position: relative;
         top: 14.5rem;
         width: auto;
-    }
-
-    #motto h3 {
-        margin-top: 14.5rem;
     }
 
     .about-container-1 {
