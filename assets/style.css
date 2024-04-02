@@ -405,6 +405,12 @@ a {
         margin-top: 3rem;
     }
 
+    #name {
+        position: relative;
+        top: 18rem;
+        width: auto;
+    }
+
 }
 
 @media screen and (max-width: 660px) {
@@ -435,12 +441,6 @@ a {
 }
 
 @media screen and (max-width: 475px) {
-
-    #name {
-        position: relative;
-        top: 14.5rem;
-        width: auto;
-    }
 
     .about-container-1 {
         font-size: 110%;
