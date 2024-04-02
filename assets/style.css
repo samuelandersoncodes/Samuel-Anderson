@@ -87,17 +87,17 @@ body {
     background-image: url(../assets/images/bluberries.webp);
     color: transparent;
     -webkit-background-clip: text;
-    animation: name 60s infinite linear;
+    animation: name 10s infinite linear;
     z-index: 3;
 }
 
 #name>h1 {
-    font-size: 300%;
+    font-size: 350%;
     font-weight: bolder;
 }
 
 #name>h2 {
-    font-size: 170%;
+    font-size: 200%;
     font-weight: bolder;
     text-align: center;
 }
