@@ -129,6 +129,11 @@ body {
     color: #e8e9eba9;
 }
 
+.navbar-nav .nav-link.active {
+    color: #fafafa;
+    font-weight: bolder;
+}
+
 .offcanvas {
     background-color: #e8e9ebda;
 }
@@ -409,11 +414,11 @@ a {
 
 @media screen and (max-width: 475px) {
 
-    /* #name {
+    #name {
         position: relative;
         top: 14.5rem;
         width: auto;
-    } */
+    }
 
     .about-container-1 {
         font-size: 110%;
