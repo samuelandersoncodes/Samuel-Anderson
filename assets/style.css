@@ -392,14 +392,6 @@ a {
 
 }
 
-@media screen and (max-width: 660px) {
-
-    #name>h1 {
-        font-size: 220%;
-    }
-
-}
-
 @media screen and (max-width: 534px) {
 
     .sub-header1 {
