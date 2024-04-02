@@ -22,58 +22,62 @@
     <header>
         <!-- Header & sub header elements -->
         <div class="position-relative text-center" id="main-header">
-            <div class="sub-header sub-header1">
-                <!-- logo -->
-                <div id="logo">
-                    <a href="#">
-                        <img src="./assets/images/logo.webp" alt="Samuel Anderson's passport sized photo">
-                    </a>
-                </div>
-            </div>
-            <div class="sub-header sub-header2">
-                <div id="name">
-                    <h1 class="heading-font">
-                        Samuel Anderson
-                    </h1>
-                    <h2 class="heading-font">
-                        Fullstack Django Developer
-                    </h2>
-                </div>
-            </div>
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarText"
-                        aria-controls="navbarText">
-                        <span class="visually-hidden">Hamburger Icon</span>
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="offcanvas offcanvas-end" id="navbarText">
-                        <div class="offcanvas-header">
-                            <h1 class="offcanvas-title logo" id="offcanvasNavbarLabel">
-                                Samuel Anderson
-                            </h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
-                        </div>
-                        <ul class="navbar-nav justify-content-end navigation">
-                            <li class="nav-item flex a-center active">
-                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                            </li>
-                            <li class="nav-item flex a-center">
-                                <a class="nav-link hvr-pop" href="./resume.html">Resume</a>
-                            </li>
-                            <li class="nav-item flex a-center">
-                                <a class="nav-link hvr-pop" href="./contact.html">Contact</a>
-                            </li>
-                            <li class="nav-item flex a-center">
-                                <a class="nav-link hvr-pop" href="./about.html">About</a>
-                            </li>
-                        </ul>
+            <div class="container-fluid">
+                <div class="">
+                    <!-- logo -->
+                    <div id="logo">
+                        <a href="#">
+                            <img src="./assets/images/logo.webp" alt="Samuel Anderson's passport sized photo">
+                        </a>
                     </div>
                 </div>
-            </nav>
+                <div class="sub-header2 position-absolute top-0 start-50 translate-middle-x">
+                    <div id="name">
+                        <h1 class="heading-font">
+                            Samuel Anderson
+                        </h1>
+                        <h2 class="heading-font">
+                            Fullstack Django Developer
+                        </h2>
+                    </div>
+                </div>
+                <div class="position-absolute top-0 end-0">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#navbarText" aria-controls="navbarText">
+                                <span class="visually-hidden">Hamburger Icon</span>
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end" id="navbarText">
+                                <div class="offcanvas-header">
+                                    <h1 class="offcanvas-title logo" id="offcanvasNavbarLabel">
+                                        Samuel Anderson
+                                    </h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <ul class="navbar-nav justify-content-end navigation">
+                                    <li class="nav-item flex a-center active">
+                                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item flex a-center">
+                                        <a class="nav-link hvr-pop" href="./resume.html">Resume</a>
+                                    </li>
+                                    <li class="nav-item flex a-center">
+                                        <a class="nav-link hvr-pop" href="./contact.html">Contact</a>
+                                    </li>
+                                    <li class="nav-item flex a-center">
+                                        <a class="nav-link hvr-pop" href="./about.html">About</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
             <div class="container">
-                <h3 class="text-info position-absolute bottom-0">
+                <h3 class="text-info fs-4 fst-italic position-absolute bottom-0 start-50 translate-middle-x">
                     I come on board with the lion's mentality
                 </h3>
             </div>

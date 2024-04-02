@@ -409,11 +409,11 @@ a {
 
 @media screen and (max-width: 475px) {
 
-    #name {
+    /* #name {
         position: relative;
         top: 14.5rem;
         width: auto;
-    }
+    } */
 
     .about-container-1 {
         font-size: 110%;
