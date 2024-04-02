@@ -138,6 +138,10 @@ body {
     background-color: #36454fe7;
 }
 
+.offcanvas-title {
+    color: #d3d3d3e4;
+}
+
 /* footer styling */
 footer {
     background-color: #d3d3d33f;
