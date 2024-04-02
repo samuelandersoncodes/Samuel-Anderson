@@ -126,6 +126,7 @@ body {
 .navbar-nav .nav-item a {
     font-size: 120%;
     font-weight: bolder;
+    color: #e8e9eba9;
 }
 
 .offcanvas {
