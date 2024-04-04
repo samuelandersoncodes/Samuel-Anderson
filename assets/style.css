@@ -198,11 +198,12 @@ a {
     color: #36454f;
     font-weight: 600;
     font-size: 140%;
-    z-index: 2;
+    z-index: 1;
 }
 
 .about-text>p {
     z-index: 3;
+    color: #000000;
 }
 
 /* Contact page styling */
