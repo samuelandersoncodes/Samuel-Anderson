@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <!-- Header & sub header elements -->
         <div id="main-header">
             <div class="sub-header sub-header1">
@@ -58,7 +58,7 @@
                         </div>
                         <ul class="navbar-nav justify-content-end navigation">
                             <li class="nav-item flex a-center active">
-                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#header">Home</a>
                             </li>
                             <li class="nav-item flex a-center">
                                 <a class="nav-link hvr-pop" href="#resume">Resume</a>
@@ -76,12 +76,18 @@
                     </div>
                 </div>
             </nav>
-        </div>
-        <!-- motto -->
-        <div class="text-center container">
-            <h3 class="text-info fs-4 fst-italic position-absolute bottom-0 start-50 translate-middle-x">
-                This site is currently being maintained
-            </h3>
+            <!-- motto -->
+            <div class="text-center position-absolute bottom-0 start-50 translate-middle-x container">
+                <div class="mb-5">
+                    <a href="./assets/cv/Samuel-Anderson-Resume.pdf" class="btn btn-outline-info hvr-pop fs-4 fw-bolder"
+                        target="_blank" rel="noopener noreferrer" aria-label="My CV Download link">
+                        Get my CV<i class="fa-solid fa-file-arrow-down"></i>
+                    </a>
+                </div>
+                <h3 class="text-info fs-4 fst-italic">
+                    This site is currently being maintained
+                </h3>
+            </div>
         </div>
     </header>
     <section>
@@ -545,8 +551,8 @@
                         <input type="email" name="email" id="email" class="form-control" placeholder="Email address"
                             required>
                         <br>
-                        <textarea name="offertype" id="offertype" rows="5" class="form-control" placeholder="Project description"
-                            required></textarea>
+                        <textarea name="offertype" id="offertype" rows="5" class="form-control"
+                            placeholder="Project description" required></textarea>
                         <br>
                         <div class="form-row text-center">
                             <div class="col mb-4">
@@ -601,7 +607,8 @@
                                     This is where I developed the mentality of the lion. He is not the smartest, fastest
                                     nor the biggest in the jungle but he makes up his mind and goes for the catch. He
                                     tries and he succeeeds, he does it over and over again. Then he comes to believe in
-                                    himself as the king. In so doing, every other being believes that he is indeed the king.
+                                    himself as the king. In so doing, every other being believes that he is indeed the
+                                    king.
                                 </p>
                             </div>
                         </div>
