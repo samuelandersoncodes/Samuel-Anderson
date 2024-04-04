@@ -79,10 +79,8 @@ body {
 
 /* name styling */
 #name {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0.3rem auto;
-    width: 63%;
+    
+    width: 100%;
     justify-content: space-around;
     background-image: url(../assets/images/bluberries.webp);
     color: transparent;
@@ -382,12 +380,6 @@ a {
 
     .competence-col {
         margin-top: 3rem;
-    }
-
-    #name {
-        position: relative;
-        top: 18rem;
-        width: auto;
     }
 
 }
