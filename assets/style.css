@@ -79,7 +79,6 @@ body {
 
 /* name styling */
 #name {
-    
     width: 100%;
     justify-content: space-around;
     background-image: url(../assets/images/bluberries.webp);
@@ -90,12 +89,12 @@ body {
 }
 
 #name>h1 {
-    font-size: 350%;
+    font-size: 600%;
     font-weight: bolder;
 }
 
 #name>h2 {
-    font-size: 200%;
+    font-size: 400%;
     font-weight: bolder;
     text-align: center;
 }
@@ -368,6 +367,14 @@ a {
         font-size: 120%;
         text-align: center;
         margin-bottom: 1rem;
+    }
+
+    #name>h1 {
+        font-size: 400%;
+    }
+
+    #name>h2 {
+        font-size: 250%;
     }
 
 }
