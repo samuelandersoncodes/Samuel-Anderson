@@ -114,10 +114,6 @@ body {
 }
 
 /* navbar styling */
-.navbar-toggler {
-    margin-right: 0.7rem;
-}
-
 .navbar-nav .nav-item a {
     font-size: 120%;
     font-weight: bolder;
