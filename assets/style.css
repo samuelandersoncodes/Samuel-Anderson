@@ -340,6 +340,11 @@ a {
     background-color: #6e6e6eb5;
 }
 
+/* Cards styles */
+.card {
+    min-height: 28rem;
+}
+
 /* media queries */
 @media screen and (max-width: 900px) {
 
