@@ -125,6 +125,10 @@ body {
     z-index: 3;
 }
 
+.navbar-nav {
+    padding-right: 3.5rem;
+}
+
 .navbar-nav .nav-link.active {
     color: #fafafa;
     font-weight: bolder;
