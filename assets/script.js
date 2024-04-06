@@ -24,7 +24,9 @@ document.querySelectorAll('.navigation .nav-link').forEach(item => {
     item.addEventListener('click', () => {
         var offcanvasElement = document.querySelector('.offcanvas');
         var offcanvas = bootstrap.Offcanvas.getInstance(offcanvasElement);
-        offcanvas.hide();
+        if (offcanvas) {
+            offcanvas.hide();
+        }
     });
 });
 
