@@ -120,6 +120,11 @@ body {
     color: #e8e9eba9;
 }
 
+.navbar {
+    background-color: rgba(0, 0, 0, 0.726);
+    z-index: 3;
+}
+
 .navbar-nav .nav-link.active {
     color: #e8e9eb54;
     font-weight: bolder;
