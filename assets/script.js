@@ -18,3 +18,12 @@ function sendMail() {
             alert(`Message sent successfully ${res.status}`);
         });
 };
+
+// Closes offcanvas when nav link is clicked
+document.querySelectorAll('.navigation .nav-link').forEach(item => {
+    item.addEventListener('click', () => {
+        var offcanvasElement = document.querySelector('.offcanvas');
+        var offcanvas = new bootstrap.Offcanvas(offcanvasElement);
+        offcanvas.hide();
+    });
+});
