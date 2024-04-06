@@ -23,7 +23,7 @@ function sendMail() {
 document.querySelectorAll('.navigation .nav-link').forEach(item => {
     item.addEventListener('click', () => {
         var offcanvasElement = document.querySelector('.offcanvas');
-        var offcanvas = new bootstrap.Offcanvas(offcanvasElement);
+        var offcanvas = bootstrap.Offcanvas.getInstance(offcanvasElement);
         offcanvas.hide();
     });
 });
