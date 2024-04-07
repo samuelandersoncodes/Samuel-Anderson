@@ -435,13 +435,11 @@ a {
 @media screen and (max-width: 412px) {
 
     #name>h2 {
-        line-height: 3rem;
-        
+        line-height: 3rem; 
     }
 
     #name>h1 {
-        line-height: 3.5rem;
-        
+        line-height: 3.5rem; 
     }
 
 }
@@ -458,13 +456,13 @@ a {
 
     #name>h1 {
         line-height: 3.2rem;
-        font-size: 360%;
+        font-size: 320%;
         margin-bottom: 12px;
     }
 
     #name>h2 {
         line-height: 2.8rem;
-        font-size: 260%;
+        font-size: 220%;
     }
 
 }
