@@ -386,7 +386,7 @@ a {
     }
 
     #name>h2 {
-        font-size: 250%;
+        font-size: 300%;
     }
 
 }
@@ -432,10 +432,39 @@ a {
 
 }
 
+@media screen and (max-width: 412px) {
+
+    #name>h2 {
+        line-height: 3rem;
+        
+    }
+
+    #name>h1 {
+        line-height: 3.5rem;
+        
+    }
+
+}
+
 @media screen and (max-width: 340px) {
 
     #contact-details>p {
         font-size: 90%;
+    }
+
+}
+
+@media screen and (max-width: 344px) {
+
+    #name>h1 {
+        line-height: 3.2rem;
+        font-size: 360%;
+        margin-bottom: 12px;
+    }
+
+    #name>h2 {
+        line-height: 2.8rem;
+        font-size: 260%;
     }
 
 }
