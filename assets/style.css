@@ -425,7 +425,7 @@ a {
 @media screen and (max-width: 517px) {
 
     .name-box {
-        top: 20rem !important;
+        top: 300px !important;
     }
 
     #name>h1 {
@@ -455,11 +455,6 @@ a {
         line-height: 3.5rem;
     }
 
-    .name-box {
-        top: 17rem !important;
-    }
-
-
 }
 
 @media screen and (max-width: 340px) {
@@ -478,10 +473,6 @@ a {
 
     #name>h2 {
         line-height: 2.8rem;
-    }
-
-    .name-box {
-        top: 16rem !important;
     }
 
 }
