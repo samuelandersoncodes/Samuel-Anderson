@@ -426,11 +426,10 @@ a {
 
     .name-box {
         top: 20rem !important;
-
     }
 
     #name>h1 {
-        margin-bottom: 20px;
+        margin-bottom: 1.8rem;
         line-height: 3.8rem;
     }
 
@@ -455,6 +454,11 @@ a {
     #name>h1 {
         line-height: 3.5rem;
     }
+
+    .name-box {
+        top: 17rem !important;
+    }
+
 
 }
 
