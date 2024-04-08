@@ -430,7 +430,7 @@ a {
 
     #name>h1 {
         margin-bottom: 1.4rem;
-        line-height: 3.8rem;
+        line-height: 3.6rem;
     }
 
 }
@@ -478,6 +478,10 @@ a {
 
     #name>h2 {
         line-height: 2.8rem;
+    }
+
+    .name-box {
+        top: 16rem !important;
     }
 
 }
