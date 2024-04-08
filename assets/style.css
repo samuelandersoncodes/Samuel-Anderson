@@ -448,6 +448,8 @@ a {
 
 @media screen and (max-width: 412px) {
 
+
+
     #name>h2 {
         line-height: 3rem;
         font-size: 250%;
@@ -456,6 +458,19 @@ a {
     #name>h1 {
         line-height: 3.5rem;
         font-size: 350%;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .name-box {
+        top: 270px !important;
+    }
+
+    #name>h1 {
+        margin-bottom: 0.8rem;
+        line-height: 3rem;
     }
 
 }
@@ -484,7 +499,7 @@ a {
 
     #name>h1 {
         line-height: 3rem;
-        margin-bottom: 0.8rem;
+        margin-bottom: 0.6rem;
         font-size: 300%;
     }
 
@@ -493,4 +508,4 @@ a {
         font-size: 200%;
     }
 
-} 
+}
