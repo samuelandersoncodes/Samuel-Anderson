@@ -465,12 +465,17 @@ a {
 @media screen and (max-width: 375px) {
 
     .name-box {
-        top: 270px !important;
+        top: 280px !important;
     }
 
     #name>h1 {
         margin-bottom: 0.8rem;
         line-height: 3rem;
+    }
+
+    #name>h2 {
+        margin-bottom: 1rem;
+        line-height: 2.9rem;
     }
 
 }
@@ -490,7 +495,7 @@ a {
     }
 
     #name>h2 {
-        line-height: 2.8rem;
+        line-height: 2.9rem;
     }
 
 }
@@ -506,6 +511,29 @@ a {
     #name>h2 {
         line-height: 2.5rem;
         font-size: 200%;
+    }
+
+}
+
+/* media query for height */
+@media screen and (max-height: 600px) {
+
+    .name-box {
+        top: 240px !important;
+    }
+
+    #name>h1 {
+        margin-bottom: 0.3rem;
+        line-height: 3rem;
+    }
+
+    #name>h2 {
+        margin-bottom: 0.3rem;
+        line-height: 2.9rem;
+    }
+
+    .motto {
+        line-height: 1.3rem;
     }
 
 }
