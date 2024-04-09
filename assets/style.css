@@ -516,7 +516,7 @@ a {
 }
 
 /* media query for height */
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 620px) {
 
     .name-box {
         top: 240px !important;
@@ -530,6 +530,25 @@ a {
     #name>h2 {
         margin-bottom: 0.3rem;
         line-height: 2.9rem;
+    }
+
+    .motto {
+        line-height: 1.3rem;
+    }
+
+}
+
+@media screen and (max-height: 555px) {
+
+    #name>h1 {
+        font-size: 260%;
+        line-height: 3rem;
+    }
+
+    #name>h2 {
+        font-size: 200%;
+        margin-bottom: 0.4rem;
+        line-height: 2.2rem;
     }
 
     .motto {
